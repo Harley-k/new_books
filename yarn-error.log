@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/harley-k/.nvm/versions/node/v12.18.2/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add inversify reflect-metadata
+
+PATH: 
+  /Users/harley-k/.nvm/versions/node/v12.18.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/harley-k/.nvm/versions/node/v12.18.2/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/inversify: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:1087
+      at ClientRequest.onError (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:152234:17)
+      at Object.onceWrapper (events.js:422:26)
+      at ClientRequest.emit (events.js:315:20)
+      at Socket.socketErrorListener (_http_client.js:426:9)
+      at Socket.emit (events.js:315:20)
+      at emitErrorNT (internal/streams/destroy.js:92:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "new_books",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

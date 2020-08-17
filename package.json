@@ -1,0 +1,25 @@
+{
+  "name": "new_books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "inversify-binding-decorators": "^4.0.0",
+    "inversify-koa-utils": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.1",
+    "koa-router": "^9.4.0",
+    "ts-node": "^8.10.2"
+  }
+}
