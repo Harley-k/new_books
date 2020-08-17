@@ -10,5 +10,5 @@ container.load(buildProviderModule())
 const server = new InversifyKoaServer(container)
 const app = server.build();
 app.listen(3000, () => {
-    console.log('🍺:服务启动成功')
+    console.log('🍺:服务启动成功:3000')
 })
