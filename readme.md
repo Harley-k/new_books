@@ -9,21 +9,22 @@
 
 ## 说明
 
-. 基于 SOLID 的 inversify 框架完成 IOC 的 Nodejs 小架构
-├── app.ts 项目入口文件
-├── constant 常亮定义
-├── controllers 路由文件
-├── interface 接口文件
-├── ioc 控制中心
-├── modules 数据模型
-├── node_modules 依赖文件
-├── package-lock.json 包🔐文件
-├── package.json 包管理
-├── readme.md 说明
-├── services 服务层实现接口
-├── tsconfig.json ts 配置文件
-├── yarn-error.log yarn 报错
-└── yarn.lock 包🔐文件
+
+        . 基于 SOLID 的 inversify 框架完成 IOC 的 Nodejs 小架构
+        ├── app.ts 项目入口文件
+        ├── constant 常亮定义
+        ├── controllers 路由文件
+        ├── interface 接口文件
+        ├── ioc 控制中心
+        ├── modules 数据模型
+        ├── node_modules 依赖文件
+        ├── package-lock.json 包🔐文件
+        ├── package.json 包管理
+        ├── readme.md 说明
+        ├── services 服务层实现接口
+        ├── tsconfig.json ts 配置文件
+        ├── yarn-error.log yarn 报错
+        └── yarn.lock 包🔐文件
 
 
 # TIP
